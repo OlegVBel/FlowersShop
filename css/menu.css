@@ -1,0 +1,65 @@
+.menu {
+  margin: 25px 0;
+}
+.menu__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.nav__item {
+  font-family: 'Museo Sans Cyrl';
+  font-weight: 700;
+  text-align: center;
+  color: var(--black-color);
+  transition: color 0.24s ease-in;
+}
+.nav__item:hover{
+  color: var(--purple-color);
+  transition: color 0.24s ease-in;
+}
+.nav__item-link{
+  cursor: pointer;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.info__messangers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+}
+.messanger__item {
+  position: relative;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background-color: var(--purple-color);
+}
+.messanger__item-ico{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.info__number {
+  font-family: 'Museo Sans Cyrl';
+  font-weight: 300;
+}
+.info__buy {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.info__buy-price {
+  font-family: 'Museo Sans Cyrl';
+  line-height: 10px;
+}
