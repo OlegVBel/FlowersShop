@@ -1,0 +1,78 @@
+.footer {
+  margin-top: 45px;
+  color: var(--white-color);
+  background-color: var(--black-color);
+  padding: 32px 0 40px;
+}
+.footer__info {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 180px;
+  margin-bottom: 56px;
+}
+.footer__info::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background-color: var(--purple-color);
+  bottom: -33px;
+}
+.footer__list-nav {
+  display: flex;
+  gap: 90px;
+}
+.footer__nav-item {
+  text-transform: uppercase;
+}
+.footer__title {
+  font-family: 'Museo Sans Cyrl';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: 35px;
+}
+.footer__list-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 15px
+}
+.footer__item {
+  font-family: 'Museo Sans Cyrl';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.footer__link {
+  color: #fff;
+  transition: color .24s linear;
+}
+.footer__link:hover {
+  color: #b182dd;
+  transition: color .24s linear;
+}
+.footer__more {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__confidence {
+  font-family: 'Museo Sans Cyrl';
+  font-weight: 300;
+  line-height: 18px;
+}
+.footer__list-payment {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  align-items: center;
+}
+.footer__payment-item:first-child {
+  font-family: 'Museo Sans Cyrl';
+  font-weight: 300;
+  line-height: 18px;
+  margin-right: 10px;
+}
+.footer__payment-img {
+}

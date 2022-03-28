@@ -1,0 +1,71 @@
+.header {
+  background-color: var(--black-color);
+  padding: 15px 0;
+  font-family: 'Museo Sans Cyrl';
+  font-weight: 300;
+  line-height: 18px;
+  color: var(--white-color);
+}
+.header__container {
+  display: flex;
+  gap: 230px;
+  justify-content: center;
+}
+.header__item {
+  display: flex;
+}
+.header__item-link{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.item__delivery-text {
+  margin-right: 60px;
+  cursor: pointer;
+  color: var(--white-color);
+  transition: color 0.24s linear;
+}
+.item__delivery-text:hover{
+  color: #b182dd;
+  transition: color 0.24s linear;
+}
+.item__contact-text{
+  cursor: pointer;
+  color: var(--white-color);
+  transition: color 0.24s linear;
+}
+.item__contact-text:hover{
+  color: #b182dd;
+  transition: color 0.24s linear;
+}
+.item__registr {
+  margin-right: 10px;
+}
+.item__btn-enter {
+  margin-right: 20px;
+  position: relative;
+  color: var(--white-color);
+  transition: color 0.24s linear;
+}
+.item__btn-enter:hover{
+  color: #b182dd;
+  transition: color 0.24s linear;
+}
+.item__btn-enter::after{
+  content: "";
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 2px;
+  right: -10px;
+  top: 0;
+  background-color: var(--purple-color);
+}
+.item__btn-registr{
+  color: var(--white-color);
+  transition: color 0.24s linear;
+}
+.item__btn-registr:hover{
+  color: #b182dd;
+  transition: color 0.24s linear;
+}
