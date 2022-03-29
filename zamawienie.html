@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Opis strony">
+	<meta name="keywords" content="HTML,CSS,JavaScript,JQuery">
+	<meta name="author" content="Daria Emelyanenko">
+	<title>Zamawianie</title>
+	<link rel="stylesheet" href="css/zamawienie.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+  <header class="header">
+      <div class="container header__container">
+        <div class="header__item">
+          <a class="header__item-link">
+            <img src="img/delivery.svg" alt="" class="header__item-delivery header-ico">
+            <p class="item__delivery-text">Dostawa i płatność </p>
+          </a>
+          <a class="header__item-link">
+            <img src="img/phone.svg" alt="" class="header__item-contact contact-ico">
+            <p class="item__contact-text">Kontakt</p>
+          </a>
+        </div>
+        <div class="header__item">
+          <img src="img/people.svg" alt="people icon" class="item__registr header-ico">
+          <button type="button" class="item__btn-enter">Logowanie</button>
+          <button type="button" class="item__btn-registr">Rejestracja </button>
+        </div>
+      </div>
+  </header>
+
+  <main class="main">
+    <section class="menu">
+      <div class="container menu__container">
+        <div class="menu__item">
+          <img src="img/logo.svg" alt="logo" class="menu__logo logo">
+        </div>
+        <nav class="menu__item menu__item-nav">
+          <ul class="nav__list">
+            <li class="nav__item">Katalog</li>
+            <li class="nav__item"><a href="#" class="nav__item-link">Forum</a></li>
+            <li class="nav__item"><a href="#" class="nav__item-link">Rekomendacje</a></li>
+            <li class="nav__item"><a href="#" class="nav__item-link">Zamówienie</a></li>
+            <li class="nav__item"><a href="#" class="nav__item-link">Rejestracja</a></li>
+            <li class="nav__item">Informacja</li>
+          </ul>
+        </nav>
+        <div class="menu__item info">
+          <div class="info__messangers">
+            <div class="messanger__item">
+              <img src="img/viber.svg" alt="viber" class="messanger__item-ico">
+            </div>
+            <div class="messanger__item">
+              <img src="img/inst.svg" alt="instagram" class="messanger__item-ico">
+            </div>
+            <div class="messanger__item">
+              <img src="img/telegram.svg" alt="telegram" class="messanger__item-ico">
+            </div>
+            <div class="messanger__item">
+              <img src="img/facebook.svg" alt="facebook" class="messanger__item-ico">
+            </div>
+          </div>
+          <p class="info__number">+48 (068) 829 30 30</p>
+          <div class="info__buy">
+            <button class="info__buy-heart"><img src="img/heart.svg" alt=""></button>
+            <button class="info__buy-basket"><img src="img/basket.svg" alt=""></button>
+            <p class="info__buy-price">$ 1 520</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="zamówienie">
+      <form action="mailto:twój_adres_poczty@domena" method="post" enctype="text/plain"><div>
+        <!-- Podstawowe pole tekstowe -->
+       <div class="zamów"> <input name="Imię">Podaj swoje imię<br>
+        <input name="Nazwisko">Podaj swoje nazwisko<br>
+        <input name="Numer telefonu">Podaj swój numer telefonu<br>
+        <input name="Miasto">Podaj miasto dostawy<br>
+        <input name="Adresa">Podaj adres dostawy<br>
+        <input name="Data dostawy">Podaj date dostawy<br>
+        <input name="Czas dostawy">Podaj czas dostawy
+
+
+        
+        
+        <!-- Pole typu CHECKBOX -->
+        <p>Jaką lubisz muzykę (możesz zaznaczyć więcej możliwości)?</p>
+        <input type="checkbox" name="Muzyka" value="Rock">Rock<br>
+        <input type="checkbox" name="Muzyka" value="Heavy Metal">Heavy Metal<br>
+        <input type="checkbox" name="Muzyka" value="Pop">Pop<br>
+        <input type="checkbox" name="Muzyka" value="Techno">Techno<br>
+        <input type="checkbox" name="Muzyka" value="Muzyka poważna">Muzyka poważna<br>
+        <input type="checkbox" name="Muzyka" value="Inna">Inna (podaj jaka):
+        <input name="Muzyka">
+        <!-- Lista rozwijalna (typ podstawowy) z zaznaczoną opcją domyślną -->
+        <p>Jakiej przeglądarki internetowej używasz?</p>
+        <select name="Przeglądarka">
+          <option selected>Internet Explorer</option>
+          <option>Netscape</option>
+          <option>Opera</option>
+          <option>Mozilla</option>
+          <option>Inna</option>
+        </select>
+        <!-- Lista rozwijalna (typ rozszerzony) z zaznaczoną opcją domyślną i zmniejszoną wysokością -->
+        <p>Jakie znasz systemy operacyjne (możesz wybrać kilka opcji trzymając klawisz Ctrl)?</p>
+        <select name="System operacyjny" multiple size="3">
+          <option selected>Dos</option>
+          <option>Windows</option>
+          <option>Linux</option>
+          <option>Inny</option>
+        </select>
+        <!-- Pole komentarza (o powiększonych rozmiarach oraz z tekstem domyślnym) -->
+        <p>Podaj swój komentarz:</p>
+        <textarea name="Komentarz" cols="50" rows="10">Proszę, wpisz tutaj jakiś komentarz...</textarea>
+        <br><br><br>
+        <!-- Przycisk WYŚLIJ -->
+        <input type="submit" value="Wyślij formularz">
+        <!-- Przycisk WYCZYŚĆ DANE -->
+        <input type="reset" value="Wyczyść dane"></div>
+        </div></form>
+    
+    </section>
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__info">
+        <img src="img/footer-logo.svg" alt="logo" class="footer__info-logo">
+        <ul class="footer__list-nav">
+          <li class="footer__nav-item">
+            <h4 class="footer__title">Informacja</h4>
+            <ul class="footer__list-vertical">
+              <li class="footer__item"><a href="" class="footer__link">O nas</a></li>
+              <li class="footer__item"><a href="" class="footer__link">Dostawa i płatność</a></li>
+              <li class="footer__item"><a href="" class="footer__link">Polityka prywatności</a></li>
+            </ul>
+          </li>
+          <li class="footer__nav-item">
+            <h4 class="footer__title">serwis pomocniczy</h4>
+            <ul class="footer__list-vertical">
+              <li class="footer__item"><a href="" class="footer__link">sitemap </a></li>
+              <li class="footer__item"><a href="" class="footer__link">zwrot towarów</a></li>
+              <li class="footer__item"><a href="" class="footer__link">kontakt z nami</a></li>
+              <li class="footer__item"><a href="" class="footer__link">dla współpracy</a></li>
+            </ul>
+          </li>
+          <li class="footer__nav-item">
+            <h4 class="footer__title"> biuro osobiste</h4>
+            <ul class="footer__list-vertical">
+              <li class="footer__item"><a href="" class="footer__link">biuro osobiste</a></li>
+              <li class="footer__item"><a href="" class="footer__link">historia zamówień</a></li>
+              <li class="footer__item"><a href="" class="footer__link">zakładki</a></li>
+              <li class="footer__item"><a href="" class="footer__link">przegląd aktualności</a></li>
+            </ul>
+          </li>
+          <li class="footer__nav-item">
+            <h4 class="footer__title">dodatkowo</h4>
+            <ul class="footer__list-vertical">
+              <li class="footer__item"><a href="" class="footer__link">prezent</a></li>
+              <li class="footer__item"><a href="" class="footer__link">certyfikaty</a></li>
+              <li class="footer__item"><a href="" class="footer__link">akcji</a></li>
+              <li class="footer__item"><a href="" class="footer__link">kwiaty do biura</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__more">
+        <p class="footer__confidence">Copyright © 2021. Wszelkie prawa zastrzeżone.</p>
+        <div class="footer__list-payment">
+          <p class="footer__payment-item">Formy płatności:</p>
+          <a class="footer__payment-item">
+            <img src="img/privatBank.svg" alt="PrivatBank" class="footer__payment-img">
+          </a>
+          <a class="footer__payment-item">
+            <img src="img/liqpay.svg" alt="LIQPAY" class="footer__payment-img">
+          </a>
+          <a class="footer__payment-item">
+            <img src="img/mastercard.svg" alt="MasterCard" class="footer__payment-img">
+          </a>
+          <a class="footer__payment-item">
+            <img src="img/maestro.svg" alt="Maestro" class="footer__payment-img">
+          </a>
+          <a class="footer__payment-item">
+            <img src="img/vise-electron.svg" alt="VISA Electron" class="footer__payment-img">
+          </a>
+          <a class="footer__payment-item">
+            <img src="img/visa.svg" alt="VISA" class="footer__payment-img">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
