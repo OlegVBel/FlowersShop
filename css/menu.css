@@ -22,9 +22,6 @@
   color: var(--purple-color);
   transition: color 0.24s ease-in;
 }
-.nav__item-link{
-  cursor: pointer;
-}
 .info {
   display: flex;
   flex-direction: column;
